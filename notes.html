@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="notes.css">
+    <script src="notes.js" defer></script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Todo App</a>
+        <a href="https://systemgnwn.github.io/portofolio/">About</a>
+    </div>
+    <span class="openbtn" onclick="openNav()">&#9776;</span>
+    <h1>Notes App</h1>
+    <div class="wrapper">
+        <form id="note-form">
+            <input type="text" id="note-title" placeholder="Note Title" required>
+            <textarea id="note-content" placeholder="Note Content" required></textarea>
+            <button type="submit">Add Note</button>
+        </form>
+        <ul id="notes-list">
+            <!-- Notes will be dynamically added here -->
+        </ul>
+    </div>
+</body>
+</html>
