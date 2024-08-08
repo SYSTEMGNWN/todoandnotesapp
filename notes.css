@@ -7,7 +7,7 @@
     background-color: var(--sidenav-color);
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 80px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
 }
 
