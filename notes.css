@@ -31,6 +31,7 @@
     right: 25px;
     font-size: 3rem;
     margin-left: 50px;
+    padding: 0 0;
 }
 
 .openbtn {
@@ -38,7 +39,7 @@
     cursor: pointer;
     background-color: var(--sidenav-color);
     color: var(--text-color);
-    padding: 10px 15px;
+    padding: 0 0;
     border: none;
     position: fixed;
     top: 10px;
